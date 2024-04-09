@@ -16,7 +16,7 @@ var objects = new Array(10); // the argument to Array
 
 function setup(){
   // this function will run once
-  createCanvas(600, 400); // create a 600 x 400 pixel drawing canvas
+  createCanvas(500, 280); // create a 600 x 400 pixel drawing canvas
 obj1 = new MyClass (148,248); 
 obj2 = new MyClass (110,98); 
 for(var i = 0; i < objects.length; i++) {

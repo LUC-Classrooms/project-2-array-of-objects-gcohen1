@@ -16,7 +16,7 @@ function MyClass (tempX, tempY){
       this.x += this.speed; // move by the value of .speed
       if (this.x > width || this.x < 0){
       // if the object reaches the right edge OR left edge
-        this.speed = this.speed * -1; // reverse polarity!
+        this.speed = this.speed * -0.8; // reverse polarity!
       }
     }
     this.display = function(){ 
